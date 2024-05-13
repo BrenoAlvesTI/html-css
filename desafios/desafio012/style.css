@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    background-color: darkgray;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 35px;
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    font-variant: small-caps;
+}
+
+picture > article {
+    background-color: rgba(0, 0, 0, 0.671);
+    color: white;
+    padding: 70px 0px;
+    padding-left: 20px;
+}
+
+article {
+    background-color: white;
+    color: black;
+}
+
+picture > article > pre > p {
+    background-color: rgba(0, 0, 0, 0.568);
+    width: 400px;
+}
+
+p#subtitulo {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    font-size: 25px;
+    line-height: 50px;
+    padding-left: 25px;
+    font-family: "Sriracha", sans-serif;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+}
+
+img#flor {
+    height: 450px;
+}
